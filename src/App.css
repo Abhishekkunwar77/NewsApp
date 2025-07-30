@@ -37,10 +37,11 @@
     transform: rotate(360deg);
   }
 }
-.toCenter{
+.toCenter {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  
+  height: 100vh; 
+  padding: 2rem;
+  text-align: center;
 }
