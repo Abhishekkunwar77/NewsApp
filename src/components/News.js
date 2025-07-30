@@ -73,7 +73,7 @@ const News = (props) => {
           </p>
           <p className="text-sm text-gray-500">
             To test this project, please run it locally. Download the ZIP file
-            from my GitHub:
+            from my GitHub: {" "}
             <a
               href="https://github.com/Abhishekkunwar77/NewsApp"
               target="_blank"
