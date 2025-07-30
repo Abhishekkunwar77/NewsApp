@@ -62,20 +62,28 @@ const News = (props) => {
 
   if (apiError) {
     return (
-      <div className="text-center mt-20 p-4">
-        <h2 className="text-3xl font-semibold text-red-600">
-          ⚠️ News Feed Not Available
-        </h2>
-        <p className="mt-2 text-gray-700 max-w-xl mx-auto text-2xl">
-          This app uses <code>NewsAPI</code>, which blocks public/production
-          deployments on the free tier.
-        </p>
-        <p className="mt-1 text-sm text-gray-500">
-          To test this project, please run it locally. Download the ZipFile from
-          my github account
-          <a href="https://github.com/Abhishekkunwar77/NewsApp">abhishekkunwar77</a>
-          and test it locally.
-        </p>
+      <div className="flex items-center justify-center min-h-screen text-center p-4">
+        <div>
+          <h2 className="text-3xl font-semibold text-red-600 mb-4">
+            ⚠️ News Feed Not Available
+          </h2>
+          <p className="text-gray-700 text-2xl mb-2">
+            This app uses <code>NewsAPI</code>, which blocks public/production
+            deployments on the free tier.
+          </p>
+          <p className="text-sm text-gray-500">
+            To test this project, please run it locally. Download the ZIP file
+            from my GitHub:
+            <a
+              href="https://github.com/Abhishekkunwar77/NewsApp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline ml-1"
+            >
+              abhishekkunwar77/NewsApp
+            </a>
+          </p>
+        </div>
       </div>
     );
   }
