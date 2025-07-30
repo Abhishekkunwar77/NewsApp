@@ -62,7 +62,7 @@ const News = (props) => {
 
   if (apiError) {
     return (
-      <div className="flex items-center justify-center min-h-screen text-center p-4">
+      <div className="toCenter flex items-center justify-center min-h-screen text-center p-4">
         <div>
           <h2 className="text-3xl font-semibold text-red-600 mb-4">
             ⚠️ News Feed Not Available
